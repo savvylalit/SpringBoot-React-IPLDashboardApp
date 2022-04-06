@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-html {
-  font-family: 'Noto Sans JP', sans-serif;
+a{
+  text-decoration: none;
+  color: lightgray;
 }
 
 body {
-  margin: 0;
-  background-color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: white;
+  max-width: 1100px;
+  margin: 0 auto;
 }
+
+
+
 
