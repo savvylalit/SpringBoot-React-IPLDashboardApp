@@ -1,7 +1,10 @@
+import './App.css';
+import { TeamPage } from "./pages/TeamPage";
+
 function App() {
   return (
-    <div>
-      <h2>Let's get started!</h2>
+    <div className="App">
+      <TeamPage />
     </div>
   );
 }
